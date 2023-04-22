@@ -1,0 +1,16 @@
+{
+  "name": "the-daily-podcast",
+  "version": "1.0.0",
+  "description": "The Daily Podcast aims to provide practical tips, advice, and life hacks on a wide range of topics to help listeners optimize their daily lives. With a focus on productivity, health and wellness, relationships, and finance, our mission is to empower our audience with actionable insights that can improve their personal and professional lives.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./style.css",
+    "watch": "tailwindcss -i ./input.css -o ./style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
